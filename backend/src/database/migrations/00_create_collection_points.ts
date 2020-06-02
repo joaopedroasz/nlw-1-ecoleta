@@ -1,0 +1,24 @@
+import Knex, { CreateTableBuilder } from 'knex';
+
+// Criar a tabela:
+export async function up(knex: Knex): Promise<void> {
+  return knex.schema.createTable(
+    'collection_points',
+    (table: CreateTableBuilder): void => {
+      table.increments('id').primary();
+      table.string('image').notNullable();
+      table.string('name').notNullable();
+      table.string('email').notNullable();
+      table.string('whatsapp').notNullable();
+      table.decimal('latitude').notNullable();
+      table.decimal('longitude').notNullable();
+      table.string('city').notNullable();
+      table.string('uf', 2).notNullable();
+    }
+  );
+}
+
+// Delatar a tabela:
+export async function down(knex: Knex): Promise<void> {
+  return knex.schema.dropTable('collection_points');
+}
