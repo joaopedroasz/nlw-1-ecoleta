@@ -7,5 +7,6 @@ export async function seed(knex: Knex): Promise<void> {
     { title: 'Papéis e Papelão', image: 'lampadas.svg' },
     { title: 'Resíduos Eletrônicos', image: 'eletronicos.svg' },
     { title: 'Óleo de Cozinha', image: 'oleo.svg' },
+    { title: 'Resíduos Orgânicos', image: 'organicos.svg' },
   ]);
 }
