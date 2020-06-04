@@ -20,7 +20,6 @@
   <a href="#-visão-geral">Visão geral</a> |
   <a href="#-tecnologias">Tecnologias</a> |
   <a href="#-projeto">Projeto</a> |
-  <a href="#-instalação">Instalação</a> |
   <a href="#-como-contribuir">Como contrubuir</a> |
   <a href="#-licença">Licença</a>
 </p>
@@ -35,7 +34,7 @@ Tendo em vista que esta semana (02/06/20 até 06/06/20) é a **Semana da conciê
 
 ## 🔨 Tecnologias:
 
-O Be The Hero foi desenvolvido com as seguintes tecnologias:
+O Ecoleta foi desenvolvido com as seguintes tecnologias:
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [NodeJS](https://nodejs.org/pt-br/)
@@ -62,7 +61,7 @@ yarn server
 
 Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-## :memo: Licença:
+## 📝 Licença:
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
