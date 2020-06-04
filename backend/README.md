@@ -2,6 +2,47 @@
   <img src="../.github/nodejs.png" width=200 />
 </>
 
+# ❕ Instalação:
+
+Para instalar as depêndencias desse projeto, navegue até a pasta *backend* e rode o comando:
+
+```bash
+yarn
+```
+
+Ou se você usa NPM:
+
+```bash
+npm install
+```
+
+### 🔄 Migrations e Seeds:
+
+As *migrations* são como um controle de versão das tabelas (entidades) do projeto, para executá-las, rode o comando:
+
+```bash
+yarn knex:migrate
+```
+
+Ou se você usa NPM:
+
+```bash
+npx knex:migrate
+```
+
+Por fim, vamos rodar os *seeds*, que são formas de adicionarmos valores no nosso banco de dados.
+Para rodar as *seeds*, ainda na pasta *backend*, rode o comando:
+
+```bash
+yarn knex:seed
+```
+
+Ou se você usa NPM:
+
+```bash
+npx knex:seed
+```
+
 # Conceitos - Back-End:
 
 ## 👾 API:
@@ -144,7 +185,11 @@ O cliente irá acessar uma rota do tipo _DELETE_ no caso de deletar uma informa�
 
 ### 🔥 Funcionalidades:
 
-- [] Cadastro de ponto de coleta.
+- [X] Cadastro de ponto de coleta.
 - [X] Listagem de itens de coleta.
-- [] Listagem de pontos de coleta - Filtro por estado, cidade - Filtro por itens.
-- [] Listar um ponto de coleta específica.
+- [X] Listagem de pontos de coleta - Filtro por estado, cidade - Filtro por itens.
+- [X] Listar um ponto de coleta específica.
+
+---
+
+Feito com ❤ por João Pedro Araújo. [Veja meu Linkedin!](https://www.linkedin.com/in/joaopedroasz/)
