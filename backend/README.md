@@ -2,6 +2,10 @@
   <img src="../.github/nodejs.png" width=200 />
 </>
 
+# ❕Instalação e configuração:
+
+Instalação
+
 # Conceitos - Back-End:
 
 ## 👾 API:
@@ -113,16 +117,16 @@ O cliente irá acessar uma rota do tipo _DELETE_ no caso de deletar uma informa�
  <summary>collection_points</summary>
 
 - Locais para coleta do lixo.
-- Campos da tabela *collection_points*:
-   - image
-   - name
-   - email
-   - whatsapp
-   - latitude
-   - longitude
-   - city
-   - uf
-</details>
+- Campos da tabela _collection_points_:
+  - image
+  - name
+  - email
+  - whatsapp
+  - latitude
+  - longitude
+  - city
+  - uf
+  </details>
 
 <details>
  <summary>items</summary>
@@ -137,14 +141,18 @@ O cliente irá acessar uma rota do tipo _DELETE_ no caso de deletar uma informa�
  <summary>point_items</summary>
 
 - Tabela de relação entre as entidades Collection Points e Items.
-- Campos da tabela *point_items*:
+- Campos da tabela _point_items_:
     - point_id
     - item_id
 </details>
 
 ### 🔥 Funcionalidades:
 
-- [] Cadastro de ponto de coleta.
-- [X] Listagem de itens de coleta.
-- [] Listagem de pontos de coleta - Filtro por estado, cidade - Filtro por itens.
-- [] Listar um ponto de coleta específica.
+- [x] Cadastro de ponto de coleta.
+- [x] Listagem de itens de coleta.
+- [x] Listagem de pontos de coleta - Filtro por estado, cidade - Filtro por itens.
+- [x] Listar um ponto de coleta específico.
+
+---
+
+Feito com ❤ por João Pedro Araújo. [Veja meu Linkedin!](https://www.linkedin.com/in/joaopedroasz/)
