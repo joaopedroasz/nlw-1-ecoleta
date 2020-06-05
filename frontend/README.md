@@ -28,11 +28,14 @@ Não é possível alterar uma informação diretamente no componente. Para mudar
 - [x] Construção da Home.
 - [x] Construção do formulário.
 - [x] Integrando mapa do formulário.
-- [] Mensagem de sucesso.
+- [x] Opção pro usuário escolher estado e cidade clicando no mapa.
+- [x] Carregar a localização do usuário assim que a aplicação abrir.
+- [x] Mensagem de sucesso.
 
 - [x] Configuração da navegação.
 
 ### 📊 Coleta de dados:
 - [x] Configuração de conexão com a API.
-- [] Buscando estados e cidades do IBGE.
-- [] Cadastro de ponto de coleta na API.
+- [x] Buscando itens de colata da API.
+- [x] Buscando estados e cidades do IBGE.
+- [x] Cadastro de ponto de coleta na API.
