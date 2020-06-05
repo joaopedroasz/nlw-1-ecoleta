@@ -1,3 +1,52 @@
+/* --- Confirmação do Cadastro: --- */
+@keyframes animacao {
+  from {
+    visibility: hidden;
+  }
+  to {
+    visibility: visible;
+  }
+}
+
+.confirm-register {
+  background: #0e0a14;
+  opacity: 0.95;
+  position: fixed;
+  top: 0;
+
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  visibility: hidden;
+  transition: 1s;
+
+  z-index: 1001;
+}
+
+.confirm-register#active {
+  animation: animacao 2s;
+}
+
+.confirm-register p {
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.confirm-register svg {
+  margin-bottom: 10px;
+}
+
+/* --- Estilo geral: --- */
+
 #page-create-point {
   width: 100%;
   max-width: 1100px;
