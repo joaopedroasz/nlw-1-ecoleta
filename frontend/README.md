@@ -28,7 +28,7 @@ Não é possível alterar uma informação diretamente no componente. Para mudar
 - [x] Construção da Home.
 - [x] Construção do formulário.
 - [x] Integrando mapa do formulário.
-- [x] Opção pro usuário escolher estado e cidade clicando no mapa.
+- [x] Opção pro usuário escolher estado e cidade.
 - [x] Carregar a localização do usuário assim que a aplicação abrir.
 - [x] Mensagem de sucesso.
 
